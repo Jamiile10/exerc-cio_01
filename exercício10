@@ -1,0 +1,64 @@
+# Função para a tabuada de multiplicação
+def tabuada_multiplicacao(num):
+    print(f"Tabuada de Multiplicação de {num}:")
+    print(f"{num} * 1 = {num * 1}")
+    print(f"{num} * 2 = {num * 2}")
+    print(f"{num} * 3 = {num * 3}")
+    print(f"{num} * 4 = {num * 4}")
+    print(f"{num} * 5 = {num * 5}")
+    print(f"{num} * 6 = {num * 6}")
+    print(f"{num} * 7 = {num * 7}")
+    print(f"{num} * 8 = {num * 8}")
+    print(f"{num} * 9 = {num * 9}")
+    print(f"{num} * 10 = {num * 10}")
+
+# Função para a tabuada de divisão
+def tabuada_divisao(num):
+    print(f"Tabuada de Divisão de {num}:")
+    print(f"{num} / 1 = {num / 1}")
+    print(f"{num} / 2 = {num / 2}")
+    print(f"{num} / 3 = {num / 3}")
+    print(f"{num} / 4 = {num / 4}")
+    print(f"{num} / 5 = {num / 5}")
+    print(f"{num} / 6 = {num / 6}")
+    print(f"{num} / 7 = {num / 7}")
+    print(f"{num} / 8 = {num / 8}")
+    print(f"{num} / 9 = {num / 9}")
+    print(f"{num} / 10 = {num / 10}")
+
+# Função para a tabuada de adição
+def tabuada_adicao(num):
+    print(f"Tabuada de Adição de {num}:")
+    print(f"{num} + 1 = {num + 1}")
+    print(f"{num} + 2 = {num + 2}")
+    print(f"{num} + 3 = {num + 3}")
+    print(f"{num} + 4 = {num + 4}")
+    print(f"{num} + 5 = {num + 5}")
+    print(f"{num} + 6 = {num + 6}")
+    print(f"{num} + 7 = {num + 7}")
+    print(f"{num} + 8 = {num + 8}")
+    print(f"{num} + 9 = {num + 9}")
+    print(f"{num} + 10 = {num + 10}")
+
+# Função para a tabuada de subtração
+def tabuada_subtracao(num):
+    print(f"Tabuada de Subtração de {num}:")
+    print(f"{num} - 1 = {num - 1}")
+    print(f"{num} - 2 = {num - 2}")
+    print(f"{num} - 3 = {num - 3}")
+    print(f"{num} - 4 = {num - 4}")
+    print(f"{num} - 5 = {num - 5}")
+    print(f"{num} - 6 = {num - 6}")
+    print(f"{num} - 7 = {num - 7}")
+    print(f"{num} - 8 = {num - 8}")
+    print(f"{num} - 9 = {num - 9}")
+    print(f"{num} - 10 = {num - 10}")
+
+# Leitura do número para gerar as tabuadas
+numero = int(input("Digite um número para gerar a tabuada: "))
+
+# Chamando as funções
+tabuada_multiplicacao(numero)
+tabuada_divisao(numero)
+tabuada_adicao(numero)
+tabuada_subtracao(numero)

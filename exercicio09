@@ -1,0 +1,15 @@
+# Função para converter dias, horas, minutos e segundos para o total em segundos
+def converter_para_segundos(dias, horas, minutos, segundos):
+    # Convertendo tudo para segundos
+    total_segundos = (dias * 86400) + (horas * 3600) + (minutos * 60) + segundos
+    return total_segundos
+
+# Leitura dos valores
+dias = int(input("Digite a quantidade de dias: "))
+horas = int(input("Digite a quantidade de horas: "))
+minutos = int(input("Digite a quantidade de minutos: "))
+segundos = int(input("Digite a quantidade de segundos: "))
+
+# Chamando a função e mostrando o resultado
+total_segundos = converter_para_segundos(dias, horas, minutos, segundos)
+print(f"Total em segundos: {total_segundos}")
